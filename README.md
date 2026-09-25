@@ -45,6 +45,7 @@ Domaine : **lab.local**
 - [Objectifs professionnels](OBJECTIFS-PROFESSIONNELS.md)
 - [Commandes utiles](COMMANDES-UTILES.md)
 - [Sécurité du repo](SECURITY.md)
+- [Mapping du cours Udemy](11%20-%20Notes%20de%20formation/Udemy-M365-SharePoint-Teams.md)
 
 ## Méthode d'apprentissage
 
