@@ -2,6 +2,8 @@
 
 Objectif : devenir **fonctionnel** sur un environnement Microsoft 365 / Modern Workplace de PME et être capable d'expliquer une migration simple de bout en bout.
 
+> La formation Udemy **Microsoft 365 Administration: Mastering SharePoint & Teams** accompagne surtout les blocs SharePoint / Teams / OneDrive / M365. Les sujets Intune, Autopilot, Defender, Conditional Access avancé et Azure sont travaillés séparément dans le lab.
+
 ## Semaine 1 — On-premises
 
 ### Jours 1-2
@@ -25,17 +27,27 @@ Objectif : devenir **fonctionnel** sur un environnement Microsoft 365 / Modern W
 - [ ] Déployer les premières GPO.
 - [ ] Valider DNS, authentification et accès.
 
-## Semaine 2 — Microsoft 365
+## Semaine 2 — Microsoft 365 + Udemy
+
+Pendant cette semaine, reproduire dans le tenant les modules pertinents vus dans Udemy.
+
 - [ ] Activer le tenant de lab.
-- [ ] Explorer les centres d'administration.
+- [ ] Explorer Microsoft 365 Admin Center.
 - [ ] Créer utilisateurs/groupes.
-- [ ] Configurer MFA.
+- [ ] Comprendre les Microsoft 365 Groups.
+- [ ] Configurer MFA de base.
 - [ ] Créer une structure SharePoint.
+- [ ] Créer sites et bibliothèques.
+- [ ] Tester les permissions et le partage.
 - [ ] Configurer OneDrive.
 - [ ] Créer Teams/canaux.
 - [ ] Comprendre Teams ↔ SharePoint.
+- [ ] Documenter chaque manipulation importante.
 
 ## Semaine 3 — Entra + Intune + sécurité
+
+Cette partie complète la formation Udemy avec du **Modern Endpoint Management**.
+
 - [ ] Entra Join d'un poste.
 - [ ] Enrollment Intune.
 - [ ] Configuration Profiles.
@@ -44,8 +56,10 @@ Objectif : devenir **fonctionnel** sur un environnement Microsoft 365 / Modern W
 - [ ] BitLocker.
 - [ ] Defender.
 - [ ] Conditional Access pilote.
+- [ ] Comparer GPO vs Intune.
 
 ## Semaine 4 — Migration complète
+
 - [ ] Assessment.
 - [ ] Mapping permissions.
 - [ ] FS01 → SharePoint.
@@ -58,7 +72,9 @@ Objectif : devenir **fonctionnel** sur un environnement Microsoft 365 / Modern W
 - [ ] Présentation de 10 minutes.
 
 ## Critère de réussite
+
 Pouvoir refaire une grande partie du lab **sans tutoriel** et répondre :
+
 1. Pourquoi ce composant existe?
 2. Comment le valider?
 3. Comment le dépanner?
