@@ -1,0 +1,27 @@
+# Secrets
+.env
+.env.*
+*.pfx
+*.p12
+*.key
+*.pem
+secrets/
+credentials/
+tokens/
+
+# Données / exports
+exports/
+client-data/
+*.pst
+*.ost
+
+# Logs / temporaire
+*.log
+tmp/
+temp/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
