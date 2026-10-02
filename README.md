@@ -6,18 +6,14 @@ Le projet simule une petite PME qui commence avec une infrastructure **on-premis
 
 ## Architecture initiale
 
-| Système | IP | Rôle |
-|---|---:|---|
-| DC01 | 192.168.70.10 | AD DS + DNS |
-| FS01 | 192.168.70.20 | File Server |
-| CLIENT01 | 192.168.70.101 | Windows 11 Pro |
-| CLIENT02 | 192.168.70.102 | Windows 11 Pro |
-| CLIENT03 | 192.168.70.103 | Windows 11 Pro |
-| PHYCLIENT01 | 192.168.70.110 | Poste physique Windows 11 Pro |
+| Système | IP | Masque | Passerelle | DNS | Rôle |
+|---|---:|---:|---:|---:|---|
+| DC01 | 192.168.71.10 | 255.255.252.0 (/22) | 192.168.68.1 | 192.168.71.10 | AD DS + DNS |
+| FILE01 | 192.168.71.11 | 255.255.252.0 (/22) | 192.168.68.1 | 192.168.71.10 | File Server |
+| CLIENT01 | 192.168.71.20 | 255.255.252.0 (/22) | 192.168.68.1 | 192.168.71.10 | Windows 11 Pro |
+| CLIENT02 | 192.168.71.21 | 255.255.252.0 (/22) | 192.168.68.1 | 192.168.71.10 | Windows 11 Pro |
 
 Domaine : **lab.local**
-
-> Le masque et la passerelle doivent être validés sur le LAN réel avant configuration.
 
 ## Parcours
 
